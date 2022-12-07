@@ -4,6 +4,7 @@ env:
 extends:
   - eslint:recommended
   - plugin:@typescript-eslint/recommended
+  - next
   - prettier
 overrides: []
 parser: '@typescript-eslint/parser'
