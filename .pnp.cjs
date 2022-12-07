@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["next", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:13.0.6"],\
+            ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:18.2.0"]\
           ],\
@@ -294,6 +295,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.8.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.1-be60b51821-4f21a0f126.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react", [\
         ["npm:18.2.0", {\
           "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
@@ -353,6 +363,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["stormtrooper-generator", "workspace:."],\
             ["next", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:13.0.6"],\
+            ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:18.2.0"]\
           ],\
