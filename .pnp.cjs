@@ -28,6 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/node", "npm:18.11.11"],\
+            ["@types/react", "npm:18.0.26"],\
             ["@typescript-eslint/eslint-plugin", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:5.45.1"],\
             ["@typescript-eslint/parser", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:5.45.1"],\
             ["eslint", "npm:8.29.0"],\
@@ -261,6 +263,45 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json-schema-npm-7.0.11-79462ae5ca-527bddfe62.zip/node_modules/@types/json-schema/",\
           "packageDependencies": [\
             ["@types/json-schema", "npm:7.0.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/node", [\
+        ["npm:18.11.11", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.11-e5325451ab-c4b1176a8f.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.11.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/prop-types", [\
+        ["npm:15.7.5", {\
+          "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.5-2aa48aa177-5b43b8b154.zip/node_modules/@types/prop-types/",\
+          "packageDependencies": [\
+            ["@types/prop-types", "npm:15.7.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/react", [\
+        ["npm:18.0.26", {\
+          "packageLocation": "./.yarn/cache/@types-react-npm-18.0.26-d708995a34-b62f0ea3cd.zip/node_modules/@types/react/",\
+          "packageDependencies": [\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/prop-types", "npm:15.7.5"],\
+            ["@types/scheduler", "npm:0.16.2"],\
+            ["csstype", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/scheduler", [\
+        ["npm:0.16.2", {\
+          "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-b6b4dcfeae.zip/node_modules/@types/scheduler/",\
+          "packageDependencies": [\
+            ["@types/scheduler", "npm:0.16.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -668,6 +709,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-key", "npm:3.1.1"],\
             ["shebang-command", "npm:2.0.0"],\
             ["which", "npm:2.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["csstype", [\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/csstype-npm-3.1.1-3857baf48b-1f7b4f5fdd.zip/node_modules/csstype/",\
+          "packageDependencies": [\
+            ["csstype", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1392,7 +1442,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/helpers", "npm:0.4.14"],\
             ["@types/fibers", null],\
             ["@types/node-sass", null],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", null],\
             ["@types/sass", null],\
             ["caniuse-lite", "npm:1.0.30001436"],\
@@ -1598,7 +1648,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/react-dom-virtual-594f44ffa2/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
             ["react-dom", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:18.2.0"],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.0.26"],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
@@ -1719,6 +1769,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["stormtrooper-generator", "workspace:."],\
+            ["@types/node", "npm:18.11.11"],\
+            ["@types/react", "npm:18.0.26"],\
             ["@typescript-eslint/eslint-plugin", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:5.45.1"],\
             ["@typescript-eslint/parser", "virtual:85d552cf1161a03cc62cff81bf50ca8e5eb704370a806ecf6f0cf1121711ad544b0c48e7aa6edd722c95a93e617040f811529a7e126f91ceaf00d0cc40cf22e7#npm:5.45.1"],\
             ["eslint", "npm:8.29.0"],\
@@ -1766,7 +1818,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", null],\
             ["@types/babel-plugin-macros", null],\
             ["@types/babel__core", null],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.0.26"],\
             ["babel-plugin-macros", null],\
             ["client-only", "npm:0.0.1"],\
             ["react", "npm:18.2.0"]\
